@@ -105,7 +105,7 @@ export default class App extends React.Component {
           <div className='col-md-10 col-sm-9 bg-dark-grey'>
             <Search onChange={this.handleSearch} value={this.state.value} />
             <div id='title' className='row mb-3 px-5'>
-              <h2 className='color-white'>Links for #React</h2>
+              <h2 className='color-white'>Links for #React: Test</h2>
             </div>
             <LinkList links={filterLinks} />
           </div>
